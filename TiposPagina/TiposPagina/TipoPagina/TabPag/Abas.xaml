@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:Nav="clr-namespace:TiposPagina.TipoPagina.Carrosel"
+            x:Class="TiposPagina.TipoPagina.TabPag.Abas">
+    <NavigationPage Title="Item1" >
+        <x:Arguments>
+            <Nav:TipoPagina1 Title="Pagina1"/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Item2" >
+        <x:Arguments>
+          <Nav:TipoPagina2  Title="Pagina2"/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Item3" >
+        <x:Arguments>
+          <Nav:TipoPagina3 Title="Pagina3" />
+        </x:Arguments>
+    </NavigationPage>
+
+    
+   
+
+</TabbedPage>
